@@ -1,5 +1,9 @@
 /* navbar */
 
+.navbar {
+    background-color: #F1F1F1; 
+}
+
 .navbar ul {
   list-style-type: none;   <!-- removes bullets from list: See https://www.w3schools.com/css/css_list.asp -->
   margin: 0;
