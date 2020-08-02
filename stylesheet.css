@@ -1,17 +1,17 @@
 /* navbar */
 
-ul {
+.navbar ul {
   list-style-type: none;   <!-- removes bullets from list: See https://www.w3schools.com/css/css_list.asp -->
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-li {
+.navbar li {
   float: left;
 }
 
-li a {
+.navbar li a {
   display: block;
   padding: 8px;
   background-color: #dddddd;
@@ -19,7 +19,7 @@ li a {
 
 /* footer */
 
-#footer {
+.footer {
   background-color: #F1F1F1;
   text-align: center;
   padding: 10px;
