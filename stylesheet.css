@@ -3,11 +3,11 @@
 .navbar {
     background-color: #F1F1F1;
     text-align: center;
-    padding: 10px;
+    padding: 0;
 }
 
 .navbar ul {
-  list-style-type: none;   <!-- removes bullets from list: See https://www.w3schools.com/css/css_list.asp -->
+  list-style-type: none; /* removes bullets from list: See https://www.w3schools.com/css/css_list.asp --> */
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -15,6 +15,7 @@
 
 .navbar li {
   float: left;
+  margin: 5px;
 }
 
 .navbar li a {
