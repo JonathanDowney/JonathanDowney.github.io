@@ -23,13 +23,9 @@ li a {
 <body>
 
 <!-- Navbar -->
-<ul>
-  <li><a href="/">Home</a></li>
-  <li><a href="/about.html">About</a></li>
-  <li><a href="/lessons.html">Lessons</a></li>
-  <li><a href="/challenges.html">Challenges</a></li>
-  <li><a href="/contact.html">Contact</a></li>
-</ul>
+<div class="container-fluid" id="navbar"></div>
+ 
+<!-- Main Content -->
 
 <h1>Welcome to WebCode Academy!</h1>
 <p>
@@ -39,5 +35,13 @@ li a {
       The site is under construction. Check back soon!
 </p>
 
+<!-- Load external content -->   
+  
+<script type="text/javascript">
+  $(function(){
+  $("#navbar").load("navbar.html"); 
+ });
+ </script>  
+  
 </body>
 </html>
