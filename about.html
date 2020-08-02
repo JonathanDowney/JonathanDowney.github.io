@@ -1,43 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-ul {
-  list-style-type: none;   <!-- removes bullets from list: See https://www.w3schools.com/css/css_list.asp -->
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  padding: 8px;
-  background-color: #dddddd;
-}
-</style>
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 <body>
 
 <!-- Navbar -->
-<ul>
-  <li><a href="/">Home</a></li>
-  <li><a href="/about.html">About</a></li>
-  <li><a href="/lessons.html">Lessons</a></li>
-  <li><a href="/challenges.html">Challenges</a></li>
-  <li><a href="/contact.html">Contact</a></li>
-</ul>
+<div class="container-fluid" id="navbar"></div>
+ 
+<!-- Main Content -->
 
 <h1>Welcome to WebCode Academy!</h1>
 <p>
-  A little bit about this project...
-</p>
+A little bit about us...
+  </p>
 <p>
-  The site is under construction. Check back soon!
+      The site is under construction. Check back soon!
 </p>
 
+<!-- Load external content -->   
+  
+<script type="text/javascript">
+  $(function(){
+  $("#navbar").load("navbar.html"); 
+ });
+ </script>  
+  
 </body>
 </html>
