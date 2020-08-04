@@ -1,2 +1,2 @@
-{ "name":&lt;p&gt;, "desc":"paragraph", "level":1 }
+{ "name":"&lt; p &gt;", "desc":"paragraph", "level":1 }
 
