@@ -1,0 +1,2 @@
+concept1 = { "name" = "<p>", "desc" = "paragraph", "level" = 1 };
+concept2 = { "name" = "<i>", "desc" = "italics", "level" = 1 };
