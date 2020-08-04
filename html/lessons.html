@@ -27,7 +27,7 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
     var myObj = JSON.parse(this.responseText);
-    document.getElementById("demo").innerHTML = "The HTML tag, " + myObj.name + ", " + "represents a " + myObj.desc;
+    document.getElementById("demo").innerHTML = "The HTML tag, &lt;" + myObj.name + "&lt;, " + "represents a " + myObj.desc;
   }
 };
 xmlhttp.open("GET", "../json/concepts.txt", true);
