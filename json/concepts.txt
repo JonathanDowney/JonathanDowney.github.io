@@ -1,2 +1,2 @@
-{ "name":encodeURIComponent(%3Cp%3E), "desc":"paragraph", "level":1 }
+{ "name":"\<p\>", "desc":"paragraph", "level":1 }
 
