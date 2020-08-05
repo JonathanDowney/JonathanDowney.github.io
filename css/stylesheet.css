@@ -27,6 +27,7 @@
 /* sidebar */
 
 .sidebar {
+  height:100%  
   background-color: lightgrey;
   width: 150px;
   border: 3px solid black;
@@ -51,6 +52,7 @@
 /* main */
 
 .main {
+  height: 100%;  
   margin-left: 200px; /* To the right of the sidenav */
   font-size: 14px; /* Increased text to enable scrolling */
   padding: 0px 10px;
