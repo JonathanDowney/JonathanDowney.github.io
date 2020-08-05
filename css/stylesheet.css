@@ -26,17 +26,14 @@
 
 /* sidebar */
 
-}
-
 .sidebar {
-  width: 160px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
+  background-color: lightgrey;
+  width: 10%;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 5px;
+  float: left;
   overflow-x: hidden;
-  padding-top: 20px;
 }
 
 .sidebar a {
@@ -54,7 +51,7 @@
 /* main */
 
 .main {
-  margin-left: 160px; /* Same as the width of the sidenav */
+  margin-left: 10%; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
