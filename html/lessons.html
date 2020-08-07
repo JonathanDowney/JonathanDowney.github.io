@@ -13,44 +13,19 @@
 <div class="sidebar">
   <b>Concept Areas:</b>
   <a href="#theInternet">The Internet</a>
-  <a href="#HTML">HTML</a>
-  <a href="#CSS">CSS</a>
+  <a id="htmlHeatMap">HTML Heat Map</a>
+  <a id="cssHeatMap">CSS Heat Map</a>
   <a href="#JS">Javascript</a>
+
 </div>
  
 <!-- Main Content -->
 <div class="main">
-<p> This is the concepts place.</p>
-<p> Click on a concept to learn about it!</p>
-<p> Lorem ipsum </p>
-<p> Lorem ipsum </p>
-<p> Lorem ipsum </p>
-<p> Lorem ipsum </p>
-<p> Lorem ipsum </p>
-<p> Lorem ipsum </p>
-<p> Lorem ipsum </p>
-<p> Lorem ipsum </p>
-<p> Lorem ipsum </p>
-<p> Lorem ipsum </p>
-<p> Lorem ipsum </p>
-<p>
-      The site is under construction. Check back soon!
-</p>
-  
-<p> Concept 1: </p>  
-<p id="demo"></p>
+<p> These are the concept heatmaps. Click on a cell to review that concept!</p> 
+<p id="heatMap"></p>
+<p>The site is under construction. Check back soon!</p>
 
-<script>
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function() {
-  if (this.readyState == 4 && this.status == 200) {
-    var myObj = JSON.parse(this.responseText);
-    document.getElementById("demo").innerHTML = "The HTML tag," + myObj.name + ", " + "represents a " + myObj.desc;
-  }
-};
-xmlhttp.open("GET", "../json/concepts.txt", true);
-xmlhttp.send();
-</script>
+
 
  </div> 
   
@@ -65,7 +40,26 @@ xmlhttp.send();
   $("#footer").load("footer.html"); 
 
  });
- </script>    
+ </script>  
+ 
+ <!-- Ajax heapmap requests-->
+<script>
+  $(document).ready(function(){
+    $("#htmlHeatMap").click(function(){
+      $("#heatMap").empty;
+      $("#heatMap").load("../json/htmlHeatMap.txt");
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function(){
+    $("#cssHeatMap").click(function(){
+      $("#heatMap").empty;
+      $("#heatMap").load("../json/cssHeatMap.txt");
+    });
+  });
+</script>
   
 </body>
 </html>

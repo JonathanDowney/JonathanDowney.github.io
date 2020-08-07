@@ -40,7 +40,7 @@
 .sidebar a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 17px;
   color: #818181;
   display: block;
 }
@@ -57,11 +57,23 @@
   font-size: 14px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
+/* heat map */
+table, th, td {
+  border: 1px solid black;
+  width: 400px;
+  height: 50px;
+  text-align: center;
+}
 
 /* footer */
 
 .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: #F1F1F1;
+  color: black;
   text-align: center;
   padding: 10px;
 }

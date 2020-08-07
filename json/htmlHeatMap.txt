@@ -1,0 +1,38 @@
+<p><h2>HTML Heat Map:</h2></p>
+<table>
+    <tr>
+        <td style="background-color:#628a62">1</td>
+	<td style="background-color:hsl(120, 68%, 32%)">2</td>
+	<td style="background-color:#afd1af">3</td>
+	<td style="background-color:#d46543">4</td>
+	<td style="background-color:#c28d6f">5</td>
+    </tr>
+    <tr>
+        <td style="background-color:#afd1af">6</td>
+        <td>7</td>
+        <td  style="background-color:#d46543">8</td>
+        <td>9</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td style="background-color:#d46543">11</td>
+        <td style="background-color:#afd1af">12</td>
+        <td style="background-color:#afd1af">13</td>
+        <td>14</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td style="background-color:#afd1af">16</td>
+        <td style="background-color:hsl(120, 68%, 32%)">17</td>
+        <td>18</td>
+        <td style="background-color:hsl(120, 68%, 32%)">19</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td style="background-color:#d46543">21</td>
+        <td style="background-color:#afd1af">22</td>
+        <td>23</td>
+        <td style="background-color:#afd1af">24</td>
+        <td style="background-color:#afd1af">25</td>
+    </tr>
+</table>
